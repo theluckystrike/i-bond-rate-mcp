@@ -1,0 +1,7 @@
+[
+  ["get_current_i_bond_rate", {}],
+  ["get_i_bond_rate_for_issue_date", { "issue_month": "2022-04" }],
+  ["estimate_i_bond_value", { "issue_month": "2023-01", "amount": 10000 }],
+  ["calculate_i_bond_composite_rate", { "fixed_rate": 1.4, "semiannual_inflation_rate": 1.5 }],
+  ["get_i_bond_rate_history", { "limit": 6 }]
+]
